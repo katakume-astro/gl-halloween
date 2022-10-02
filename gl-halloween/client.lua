@@ -65,7 +65,7 @@ function playAnim()
     TaskPlayAnim(ped, "mp_safehouselost@", "package_dropoff", 8.0, 1.0, -1, 16, 0, 0, 0, 0)
     Wait(3000)
     DeleteEntity(ped)
-    lib.setClipboard('https://imgur.com/gallery/SOKo5bE')
+    lib.setClipboard('https://imgur.com/gallery/SOKo5bE') -- easteregg
     TriggerServerEvent('gl-halloween:getSurprise')
     SetModelAsNoLongerNeeded(hash)
 end
