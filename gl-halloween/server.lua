@@ -4,7 +4,7 @@ RegisterServerEvent('gl-halloween:getSurprise', function() -- all sv edited by k
 	local szescie = math.random(1, 2)
 
 	if szescie <= 1 then
-		xPlayer.addInventoryItem(nieszpodzianka, Config.Amount)
+		xPlayer.addInventoryItem(niespodzianka, Config.Amount)
 	else
 		xPlayer.showNotification('Osoba nie ma cukierkow ale w ramach rekompensaty dostales troche szmalu')
 		xPlayer.addMoney(szescie)
