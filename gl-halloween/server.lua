@@ -6,7 +6,7 @@ RegisterServerEvent('gl-halloween:getSurprise', function() -- all sv edited by k
 	if szescie <= 1 then
 		xPlayer.addInventoryItem(niespodzianka, Config.Amount)
 	else
-		xPlayer.showNotification('Osoba nie ma cukierkow ale w ramach rekompensaty dostales troche szmalu')
+		TriggerClientEvent('Astro-NotifySystem:Notify', source, 'error', 'Osoba nie ma cukierkow ale w ramach rekompensaty dostales troche szmalu')
 		xPlayer.addMoney(szescie)
 	end
 end)
