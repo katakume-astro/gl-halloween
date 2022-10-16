@@ -28,6 +28,7 @@ server_scripts {
 
 dependencies {
     'oxmysql',
+    'Astro-NotifySystem',
     'ox_lib',
     'es_extended'
 }
